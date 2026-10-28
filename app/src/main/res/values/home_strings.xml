@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The home screen's own words (bento, shelf and dock live in com.salutehome.home). -->
+<resources>
+    <!-- The shelf's head: TVmaze lists what's new this week; TMDB ranks what's trending. -->
+    <string name="home_shelf_new">Новое в ваших приложениях</string>
+    <string name="home_shelf_trending">Популярное</string>
+    <!-- TVmaze's licence asks for credit; TMDB's terms do too, and JustWatch supplies its streaming data. -->
+    <string name="home_credit_tvmaze">Данные TVmaze</string>
+    <string name="home_credit_tmdb">Данные TMDB</string>
+    <!-- Under the wide poster while there's nothing to show yet (offline, or nothing new). -->
+    <string name="home_shelf_waiting">Здесь появятся фильмы и сериалы</string>
+    <string name="top_inputs">Источники</string>
+    <string name="top_bluetooth">Bluetooth</string>
+    <string name="top_bluetooth_off">Bluetooth выключен</string>
+    <string name="top_input_live">есть сигнал</string>
+    <string name="top_input_none">не подключено</string>
+    <string name="top_picture">Изображение</string>
+    <string name="top_sound">Звук</string>
+    <string name="top_network">Сеть</string>
+    <string name="top_apps">Приложения</string>
+    <string name="top_all_settings">Все настройки</string>
+    <string name="top_offline">Нет сети</string>
+    <string name="app_menu_move">Переместить</string>
+    <string name="app_menu_unpin">Убрать из дока</string>
+    <string name="app_menu_pin">Добавить в док</string>
+    <string name="app_menu_pinned">%1$s в доке</string>
+    <string name="app_menu_dock_full">В доке уже %1$d приложений. Сначала уберите одно</string>
+    <string name="app_menu_close">Закрыть приложение</string>
+    <string name="app_menu_closed">%1$s закрыто</string>
+    <string name="app_menu_force">Принудительно остановить</string>
+    <string name="home_now_playing">Сейчас играет</string>
+    <string name="home_shelf_continue">Продолжить просмотр</string>
+    <string name="home_shelf_recommended">Рекомендации</string>
+    <string name="home_row_left">Осталось %1$d мин</string>
+    <string name="home_row_episode">%1$s сезон · %2$s серия</string>
+    <string name="spotify_liked">Любимые треки</string>
+    <string name="spotify_liked_meta">Плейлист</string>
+    <string name="youtube_sign_in">Войти в YouTube</string>
+    <string name="youtube_sign_in_why">Недосмотренное и рекомендации</string>
+    <string name="youtube_sign_in_where">Введите код на %1$s</string>
+    <string name="youtube_sign_in_failed">Не удалось получить код YouTube</string>
+    <string name="home_all_apps">Все приложения</string>
+</resources>

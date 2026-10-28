@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Salute TV layout (960 x 540 dp; HomeActivity picks the density that makes the panel that wide).
+     Each slot is filled in code by its part: glow behind everything, the bento top left, the top bar's
+     pills top right, the shelf across the middle, the app dock along the bottom with the focused app's
+     name under it, the island over the top, the dropdown menus and the app library over that, music mode
+     over everything, then the screensaver, the toast on top. The black behind it all is the window's
+     (themes.xml), so the root draws no second one. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <FrameLayout
+        android:id="@+id/glowSlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+        <FrameLayout
+            android:id="@+id/bentoSlot"
+            android:layout_width="312dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="32dp"
+            android:clipChildren="false" />
+
+        <FrameLayout
+            android:id="@+id/shelfSlot"
+            android:layout_width="848dp"
+            android:layout_height="184dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="158dp"
+            android:clipChildren="false" />
+
+        <FrameLayout
+            android:id="@+id/topBarSlot"
+            android:layout_width="504dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="400dp"
+            android:layout_marginTop="32dp"
+            android:clipChildren="false" />
+
+        <FrameLayout
+            android:id="@+id/dockSlot"
+            android:layout_width="848dp"
+            android:layout_height="84.4dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="404dp"
+            android:clipChildren="false" />
+
+        <FrameLayout
+            android:id="@+id/dockNameSlot"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginTop="494dp" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/appsSlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Over the app library too: an app's long-press menu opens there. -->
+    <FrameLayout
+        android:id="@+id/menuSlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false" />
+
+    <FrameLayout
+        android:id="@+id/musicSlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- The DVD screensaver: this firmware runs no dreams, so the home screen shows it itself. -->
+    <FrameLayout
+        android:id="@+id/saverSlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/toastSlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

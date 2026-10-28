@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The side dock's words, as the prototype writes them (prototype/app.js, renderSideDock and its views). -->
+<resources>
+    <string name="side_wifi">Wi-Fi</string>
+    <string name="side_volume">Громкость</string>
+
+    <!-- When nothing is connected there's no "other": just the networks. -->
+
+    <!-- Toasts. -->
+    <string name="side_connected_to">Подключено к %1$s</string>
+    <string name="side_could_not_join">Не удалось подключиться к %1$s</string>
+    <string name="side_not_available">Недоступно на этом ТВ</string>
+    <string name="app_not_installed">Это приложение не установлено</string>
+    <string name="top_accessories">Пульты и аксессуары</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Главный экран</string>
+    <string name="dream_name">Заставка</string>
+    <string name="input_key_service_description">Opens the TV\'s input list when you press Input on the remote, and shows what\'s playing on the home screen.</string>
+</resources>
